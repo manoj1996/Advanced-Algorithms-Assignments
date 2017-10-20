@@ -1,0 +1,540 @@
+Assignment 2
+String Search and Suffix Trees
+
+Team Members:
+Joel Kiran Kumar - 01FB14ECS089
+Manoj S Hegde - 01FB14ECS114
+ 
+1.Find the length of the text with URL infection list 
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+1
+Preprocessing time in seconds: 0.0020046234130859375
+Execution time in seconds: 0.06397414207458496
+File size Before : 229939
+File size After : 216383
+URL infection list:
+http://foo.com/blah_blah
+https://foo.com/blah_blah
+http://foo.com/blah_blah/
+http://foo.com/blah_blah_(wikipedia)
+http://foo.com/blah_blah_(wikipedia)_(again)
+http://www.example.com/wpstyle/?p=364
+https://www.example.com/foo/?bar=baz&inga=42&quux
+http://142.42.1.1/
+http://142.42.1.1:8080/
+http://foo.com/blah_(wikipedia)#cite-1
+http://foo.com/blah_(wikipedia)_blah#cite-1
+http://foo.com/(something)?after=parens
+http://code.google.com/events/#&product=browser
+http://j.mp
+ftp://foo.bar/baz
+ftp://foo.bar/bla
+http://foo.bar/?q=Test%20URL-encoded%20stuff
+http://1337.net
+http://a.b-c.de
+http://223.255.255.254
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+2
+Enter the algorithm
+
+1.Rabin-Karp
+2.Knuth-Morris-Pratt
+3.Suffix Tree
+1
+Do you want the pattern search to be 
+1.Between two strings 
+2.Between two indices
+1
+Enter the staring and ending string in which you want to find the pattern
+First String : right
+Second String : ropes
+Enter The Pattern : him
+Preprocessing time in Seconds:  5.4836273193359375e-06
+Search time in Seconds:  0.0010869503021240234
+[234, 256, 647, 659, 1028, 1226, 1302, 1893, 1919, 2061, 2150]
+Number of times the pattern has occured :  11
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+2   
+Enter the algorithm
+
+1.Rabin-Karp
+2.Knuth-Morris-Pratt
+3.Suffix Tree
+2
+Do you want the pattern search to be 
+1.Between two strings 
+2.Between two indices
+1
+Enter the staring and ending string in which you want to find the pattern
+First String : right      
+Second String : ropes
+Enter The Pattern : him
+Preprocessing time in Seconds:  1.8835067749023438e-05
+Search time in Seconds:  0.0011246204376220703
+[234, 256, 647, 659, 1028, 1226, 1302, 1893, 1919, 2061, 2150]
+Number of times the pattern has occured :  11
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+2
+Enter the algorithm
+
+1.Rabin-Karp
+2.Knuth-Morris-Pratt
+3.Suffix Tree
+3
+Do you want the pattern search to be 
+1.Between two strings 
+2.Between two indices
+1
+Enter the staring and ending string in which you want to find the pattern
+First String : right      
+Second String : ropes
+Enter The Pattern : him
+Pre processing time in sec: 0.02223062515258789
+Search time in seconds: 2.0265579223632812e-05
+[234, 256, 647, 659, 1028, 1226, 1302, 1893, 1919, 2061, 2150]
+Number of times the pattern has occured :  11
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+2
+Enter the algorithm
+
+1.Rabin-Karp
+2.Knuth-Morris-Pratt
+3.Suffix Tree
+1
+Do you want the pattern search to be 
+1.Between two strings 
+2.Between two indices
+2
+Enter the staring and ending index in which you want to find the pattern
+First index : 100
+Second index : 15000
+Enter The Pattern : him
+Preprocessing time in Seconds:  5.4836273193359375e-06
+Search time in Seconds:  0.006426095962524414
+[161, 234, 256, 647, 659, 1028, 1226, 1302, 1893, 1919, 2061, 2150, 2255, 2634, 2660, 3298, 4093, 4139, 4323, 6584, 6636, 7088, 7444, 7461, 8019, 8294, 8335, 9277, 11349, 12141, 13139, 13288, 13689]
+Number of times the pattern has occured :  33
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+2
+Enter the algorithm
+
+1.Rabin-Karp
+2.Knuth-Morris-Pratt
+3.Suffix Tree
+2
+Do you want the pattern search to be 
+1.Between two strings 
+2.Between two indices
+2
+Enter the staring and ending index in which you want to find the pattern
+First index : 100
+Second index : 15000
+Enter The Pattern : him
+Preprocessing time in Seconds:  2.2411346435546875e-05
+Search time in Seconds:  0.009740352630615234
+[161, 234, 256, 647, 659, 1028, 1226, 1302, 1893, 1919, 2061, 2150, 2255, 2634, 2660, 3298, 4093, 4139, 4323, 6584, 6636, 7088, 7444, 7461, 8019, 8294, 8335, 9277, 11349, 12141, 13139, 13288, 13689]
+Number of times the pattern has occured :  33
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+2
+Enter the algorithm
+
+1.Rabin-Karp
+2.Knuth-Morris-Pratt
+3.Suffix Tree
+3
+Do you want the pattern search to be 
+1.Between two strings 
+2.Between two indices
+2
+Enter the staring and ending index in which you want to find the pattern
+First index : 100
+Second index : 15000
+Enter The Pattern : him
+Pre processing time in sec: 0.17621803283691406
+Search time in seconds: 6.341934204101562e-05
+[161, 234, 256, 647, 659, 1028, 1226, 1302, 1893, 1919, 2061, 2150, 2255, 2634, 2660, 3298, 4093, 4139, 4323, 6584, 6636, 7088, 7444, 7461, 8019, 8294, 8335, 9277, 11349, 12141, 13139, 13288, 13689]
+Number of times the pattern has occured :  33
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+4
+Enter the length of the maximal palindrome:5
+Maximal Palindrome  ->   Title   ->   Index
+Maximal Palindrome: hostility
+Story Title: The Bat and the Weasels 
+Index : 1268
+-------------------------------------------------------------------------
+Maximal Palindrome: possess
+Story Title: The Ass and the Grasshopper 
+Index : 1555
+-------------------------------------------------------------------------
+Maximal Palindrome: ordered
+Story Title: The Father and His Sons 
+Index : 3414
+-------------------------------------------------------------------------
+Maximal Palindrome: are
+divided
+Story Title: The Father and His Sons 
+Index : 3833
+-------------------------------------------------------------------------
+Maximal Palindrome: Guardian
+Deities
+Story Title: The Herdsman and the Lost Bull 
+Index : 8814
+-------------------------------------------------------------------------
+Maximal Palindrome: Deities
+Story Title: The Herdsman and the Lost Bull 
+Index : 9067
+-------------------------------------------------------------------------
+Maximal Palindrome: revived
+Story Title: The Farmer and the Snake 
+Index : 11259
+-------------------------------------------------------------------------
+Maximal Palindrome: useless
+Story Title: The Ass and the Lapdog 
+Index : 23105
+-------------------------------------------------------------------------
+Maximal Palindrome: pondered
+Story Title: The Cat and the Cock 
+Index : 24301
+-------------------------------------------------------------------------
+Maximal Palindrome: prefer
+Story Title: The Goatherd and the Wild Goats 
+Index : 34088
+-------------------------------------------------------------------------
+Maximal Palindrome: presence
+wherever
+Story Title: The Mischievous Dog 
+Index : 34377
+-------------------------------------------------------------------------
+Maximal Palindrome: wandered
+Story Title: The Astronomer 
+Index : 36547
+-------------------------------------------------------------------------
+Maximal Palindrome: campaigning
+Story Title: The Charger and the Miller 
+Index : 39501
+-------------------------------------------------------------------------
+Maximal Palindrome: prefer
+Story Title: The Charger and the Miller 
+Index : 39636
+-------------------------------------------------------------------------
+Maximal Palindrome: rendered
+Story Title: The Shepherd's Boy and the Wolf 
+Index : 43725
+-------------------------------------------------------------------------
+Maximal Palindrome: possess
+Story Title: The Fox and the Crow 
+Index : 54300
+-------------------------------------------------------------------------
+Maximal Palindrome: considered
+Story Title: The Fox and the Crow 
+Index : 54532
+-------------------------------------------------------------------------
+Maximal Palindrome: ordered
+Story Title: The Stag in the Ox-Stall 
+Index : 56930
+-------------------------------------------------------------------------
+Maximal Palindrome: divided
+Story Title: The Wild Ass and the Lion 
+Index : 58300
+-------------------------------------------------------------------------
+Maximal Palindrome: wherever
+Story Title: The Wolf and the Housedog 
+Index : 64528
+-------------------------------------------------------------------------
+Maximal Palindrome: appetite
+Story Title: The Wolf and the Housedog 
+Index : 64687
+-------------------------------------------------------------------------
+Maximal Palindrome: preferable
+Story Title: The Three Tradesmen 
+Index : 65701
+-------------------------------------------------------------------------
+Maximal Palindrome: preserved
+Story Title: The Swan and the Goose 
+Index : 77442
+-------------------------------------------------------------------------
+Maximal Palindrome: imitative
+Story Title: The Monkey and the Fishermen 
+Index : 80168
+-------------------------------------------------------------------------
+Maximal Palindrome: possession
+Story Title: The Lion the Bear and the Fox 
+Index : 82028
+-------------------------------------------------------------------------
+Maximal Palindrome: service
+rendered
+Story Title: The Peasant and the Eagle 
+Index : 86081
+-------------------------------------------------------------------------
+Maximal Palindrome: divided
+Story Title: The Lion the Fox and the Ass 
+Index : 91299
+-------------------------------------------------------------------------
+Maximal Palindrome: dividing
+Story Title: The Oak and the Woodcutters 
+Index : 92385
+-------------------------------------------------------------------------
+Maximal Palindrome: considered
+Story Title: The Crow and the Raven 
+Index : 93644
+-------------------------------------------------------------------------
+Maximal Palindrome: wondered
+Story Title: The Crow and the Raven 
+Index : 93961
+-------------------------------------------------------------------------
+Maximal Palindrome: possessed
+Story Title: The Woman and Her Hen 
+Index : 95227
+-------------------------------------------------------------------------
+Maximal Palindrome: pondered
+Story Title: The Woman and Her Hen 
+Index : 95284
+-------------------------------------------------------------------------
+Maximal Palindrome: feigning
+to
+Story Title: The Eagle the Cat and the Wild Sow 
+Index : 102224
+-------------------------------------------------------------------------
+Maximal Palindrome: proportioned
+Story Title: The Wolf and the Fox 
+Index : 106985
+-------------------------------------------------------------------------
+Maximal Palindrome: divided
+Story Title: The Man the Horse the Ox and the Dog 
+Index : 113208
+-------------------------------------------------------------------------
+Maximal Palindrome: reserved
+Story Title: The Man the Horse the Ox and the Dog 
+Index : 113709
+-------------------------------------------------------------------------
+Maximal Palindrome: ordered
+Story Title: The Apes and the Two Travelers 
+Index : 114269
+-------------------------------------------------------------------------
+Maximal Palindrome: proportion
+Story Title: The Weasel and the Mice 
+Index : 118481
+-------------------------------------------------------------------------
+Maximal Palindrome: useless
+Story Title: The Boy Bathing 
+Index : 118850
+-------------------------------------------------------------------------
+Maximal Palindrome: prefer
+Story Title: The Town Mouse and the Country Mouse 
+Index : 126532
+-------------------------------------------------------------------------
+Maximal Palindrome: over-rejoiced
+Story Title: The Fishermen 
+Index : 128091
+-------------------------------------------------------------------------
+Maximal Palindrome: imitation
+Story Title: The Fox and the Mask 
+Index : 129757
+-------------------------------------------------------------------------
+Maximal Palindrome: resigning
+Story Title: The North Wind and the Sun 
+Index : 134650
+-------------------------------------------------------------------------
+Maximal Palindrome: considered
+Story Title: The Dog's House 
+Index : 137805
+-------------------------------------------------------------------------
+Maximal Palindrome: considered
+the
+Story Title: The Owl and the Birds 
+Index : 140412
+-------------------------------------------------------------------------
+Maximal Palindrome: wondered
+Story Title: The Owl and the Birds 
+Index : 140526
+-------------------------------------------------------------------------
+Maximal Palindrome: possess
+Story Title: The Goods and the Ills 
+Index : 142786
+-------------------------------------------------------------------------
+Maximal Palindrome: habitations
+Story Title: The Goods and the Ills 
+Index : 143313
+-------------------------------------------------------------------------
+Maximal Palindrome: helpless
+Story Title: The Eagle and the Fox 
+Index : 148824
+-------------------------------------------------------------------------
+Maximal Palindrome: reverence
+Story Title: The Lark Burying Her Father 
+Index : 152304
+-------------------------------------------------------------------------
+Maximal Palindrome: useless
+Story Title: The Two Soldiers and the Robber 
+Index : 156621
+-------------------------------------------------------------------------
+Maximal Palindrome: preferred
+trees
+Story Title: The Trees Under the Protection of the Gods 
+Index : 157089
+-------------------------------------------------------------------------
+Maximal Palindrome: murdered
+Story Title: The Manslayer 
+Index : 159048
+-------------------------------------------------------------------------
+Maximal Palindrome: imitation
+Story Title: The Buffoon and the Countryman 
+Index : 162506
+-------------------------------------------------------------------------
+Maximal Palindrome: useless
+Story Title: The Travelers and the Plane-Tree 
+Index : 173081
+-------------------------------------------------------------------------
+Maximal Palindrome: useless
+Story Title: The Travelers and the Plane-Tree 
+Index : 173316
+-------------------------------------------------------------------------
+Maximal Palindrome: possess
+Story Title: The Lion Jupiter and the Elephant 
+Index : 174575
+-------------------------------------------------------------------------
+Maximal Palindrome: ordered
+Story Title: The Lion and the Shepherd 
+Index : 178615
+-------------------------------------------------------------------------
+Maximal Palindrome: surrendered
+Story Title: The Panther and the Shepherds 
+Index : 179868
+-------------------------------------------------------------------------
+Maximal Palindrome: invitation
+Story Title: LIFE OF AESOP 
+Index : 186392
+-------------------------------------------------------------------------
+Maximal Palindrome: divide
+Story Title: LIFE OF AESOP 
+Index : 187110
+-------------------------------------------------------------------------
+Maximal Palindrome: reference
+Story Title: LIFE OF AESOP 
+Index : 188033
+-------------------------------------------------------------------------
+Maximal Palindrome: reference
+Story Title: PREFACE 
+Index : 190210
+-------------------------------------------------------------------------
+Maximal Palindrome: wherever
+Story Title: PREFACE 
+Index : 192561
+-------------------------------------------------------------------------
+Maximal Palindrome: individual
+Story Title: PREFACE 
+Index : 192811
+-------------------------------------------------------------------------
+Maximal Palindrome: preference
+Story Title: PREFACE 
+Index : 193953
+-------------------------------------------------------------------------
+Maximal Palindrome: considered
+Story Title: PREFACE 
+Index : 195887
+-------------------------------------------------------------------------
+Maximal Palindrome: Frederick
+Story Title: PREFACE 
+Index : 202612
+-------------------------------------------------------------------------
+Maximal Palindrome: institution
+Story Title: PREFACE 
+Index : 205607
+-------------------------------------------------------------------------
+Maximal Palindrome: reference
+Story Title: PREFACE 
+Index : 206368
+-------------------------------------------------------------------------
+Maximal Palindrome: references
+Story Title: PREFACE 
+Index : 207021
+-------------------------------------------------------------------------
+Maximal Palindrome: unreservedly
+Story Title: PREFACE 
+Index : 208069
+-------------------------------------------------------------------------
+Maximal Palindrome: divided
+Story Title: PREFACE 
+Index : 209146
+-------------------------------------------------------------------------
+Maximal Palindrome: authenticity
+Story Title: PREFACE 
+Index : 209519
+-------------------------------------------------------------------------
+Maximal Palindrome: individual
+Story Title: FOOTNOTES 
+Index : 211034
+-------------------------------------------------------------------------
+Maximal Palindrome: reference
+Story Title: FOOTNOTES 
+Index : 211664
+-------------------------------------------------------------------------
+Maximal Palindrome: utility
+Story Title: FOOTNOTES 
+Index : 211968
+-------------------------------------------------------------------------
+Maximal Palindrome: divided
+Story Title: FOOTNOTES 
+Index : 213552
+-------------------------------------------------------------------------
+Maximal Palindrome: terseness
+Story Title: FOOTNOTES 
+Index : 213883
+-------------------------------------------------------------------------
+
+
+1.Find the length of the text with URL infection list
+2.Find Pattern
+3.Build cross Index
+4.Maximal Palindrome
+5:Exit
+5
+
+Learning Outcomes
+We learnt the applications of string matching algorithms (Rabin Karp,Knuth-Morris-Pratt,Suffix tree) in large text files. The preprocessing and execution times of all the three algorithms for pattern matching using indices and two strings were observed. We improved our coding in python. The actual implementation of the algorithms - coding and execution sequence were understood properly. We learnt the coding challenges faced while implementing the algorithms. The output correlated with the theory concepts that rabin karp and knuth morris pratt have preprocessing complexity of O(m).They hardly changed considerably for different text sizes showing that they are independent of length of the input text. Suffix tree had O(m) for serching and O(n^2) for building the suffix tree as preprocessing. 
+
+

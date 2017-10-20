@@ -1,0 +1,147 @@
+manoj@manoj-G551JK:~/Documents/PESU/Sem5/Algorithms/Assignments/Assignment3$ python3 fibonacci.py 
+Displaying the heap f1
+906
+Printing the node in the root list
+274
+Printing the node in the root list
+677
+Printing the node in the root list
+858
+Printing the node in the root list
+464
+Displaying the heap f2
+992
+Printing the node in the root list
+552
+Printing the node in the root list
+465
+Printing the node in the root list
+586
+Printing the node in the root list
+234
+Enter
+1:To insert into heap f1
+2:To insert into heap f2
+3:Exit
+1
+Enter the element to be inserted into f1:205
+Enter
+1:To insert into heap f1
+2:To insert into heap f2
+3:Exit
+2
+Enter the element to be inserted into f2:401
+Enter
+1:To insert into heap f1
+2:To insert into heap f2
+3:Exit
+3
+Merging 2 heaps f1 and f2 -> creating f3
+Iterating over f3
+906
+Printing the node in the root list
+205
+Printing the node in the root list
+274
+Printing the node in the root list
+677
+Printing the node in the root list
+858
+Printing the node in the root list
+464
+Printing the node in the root list
+992
+Printing the node in the root list
+401
+Printing the node in the root list
+552
+Printing the node in the root list
+465
+Printing the node in the root list
+586
+Printing the node in the root list
+234
+Enter
+1:To find minimum in f1
+2:To find minimum in f2
+3:To find minimum in f3
+4:Exit
+1
+Minimum in f1: 205
+Enter
+1:To find minimum in f1
+2:To find minimum in f2
+3:To find minimum in f3
+4:Exit
+2
+Minimum in f2: 234
+Enter
+1:To find minimum in f1
+2:To find minimum in f2
+3:To find minimum in f3
+4:Exit
+3
+Minimum in f3: 205
+Enter
+1:To find minimum in f1
+2:To find minimum in f2
+3:To find minimum in f3
+4:Exit
+4
+Enter
+1:To extract minimum in f3
+2:Exit
+1
+Minimum in f3: 205
+Enter
+1:To extract minimum in f3
+2:Exit
+2
+Displaying the root list of heap f3
+274
+Children of  274
+906
+Printing the node in the root list
+401
+Children of  401
+552
+Printing the node in the root list
+464
+Children of  464
+992
+Printing the node in the root list
+677
+Children of  677
+858
+Printing the node in the root list
+465
+Children of  465
+586
+Printing the node in the root list
+234
+Displaying the root list of heap f3 after decrease key operation
+274
+Children of  274
+906
+Printing the node in the root list
+401
+Children of  401
+552
+Printing the node in the root list
+464
+Children of  464
+992
+Printing the node in the root list
+677
+Children of  677
+858
+Printing the node in the root list
+1
+Children of  1
+586
+Printing the node in the root list
+234
+
+
+Conclusion
+This project has taught us about the different operations of Heap ADT.We observed the time complexity of insert,delete,extract min and find minimum methods.The decrease key operation overheads were observed in which the marked properties of the nodes were taken into consideration. The fibonacci heap was constructed and merged. It has also helped us to improve our coding skills as well as learn the additional library features of the language. 	
